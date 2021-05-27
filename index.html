@@ -1,0 +1,247 @@
+  
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+    <div>
+       <a href="https://pokemondb.net/pokedex/all"> <img src="ez4.png" alt="pokemon go"></a>
+    </div>
+</center>
+    <div class="container-fluid" id="main">
+        <div class="row row-cols-3">
+            <div class="col" id="a">
+                <div id="teljes">
+                    <h2 id="nev1">Pikachu</h2>
+                    <button id="valtas" class="btn btn-dark" onclick="b1()">
+                        </button>
+                            <img id="kep1" src="" alt="pikachu">
+                            <button id="valtas" class="btn btn-dark" onclick="j1()">></button>
+                </div>
+            </div>
+            <div class="col-4" id="a">
+                <div class="row row-cols-3">
+                    <div class="col" id="a">
+                        <div class="fight">
+                            <h2 id="p1"><br></h2>
+                        </div>
+                        <div id="balstat">
+                            <div id="statblock">
+                                <div id="statbarcorner">
+                                    <div id="statbar"></div>
+                                </div><a id="szam">35</a>
+                            </div>
+                            <div id="statblock">
+                                <div id="statbarcorner">
+                                    <div id="statbar"></div>
+                                </div><a id="szam">55</a>
+                            </div>
+                            <div id="statblock">
+                                <div id="statbarcorner">
+                                    <div id="statbar"></div>
+                                </div><a id="szam">40</a>
+                            </div>
+                            <div id="statblock">
+                                <div id="statbarcorner">
+                                    <div id="statbar"></div>
+                                </div><a id="szam">90</a>
+                            </div>
+                            <div id="statblock">
+                                <div id="total">
+                                    <a id="szam">90</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="a">
+                        <div class="fight">
+                            <h2 id="csata"><br></h2>
+                        </div>
+                        <div id="statnevek">
+                            <p>HP</p>
+                            <p>Attack</p>
+                            <p>Defense</p>
+                            <p>Speed</p>
+                            <p>All</p>
+                        </div>
+                    </div>
+                    <div class="col" id="a">
+                        <div class="fight">
+                            <h2 id="p2"><br></h2>
+                        </div>
+                        <div id="jobbstat">
+                            <div id="statblock">
+                                <div id="statbarcorner">
+                                    <div id="statbar"></div>
+                                </div><a id="szam">35</a>
+                            </div>
+                            <div id="statblock">
+                                <div id="statbarcorner">
+                                    <div id="statbar"></div>
+                                </div><a id="szam">55</a>
+                            </div>
+                            <div id="statblock">
+                                <div id="statbarcorner">
+                                    <div id="statbar"></div>
+                                </div><a id="szam">40</a>
+                            </div>
+                            <div id="statblock">
+                                <div id="statbarcorner">
+                                    <div id="statbar"></div>
+                                </div><a id="szam">90</a>
+                            </div>
+                            <div id="statblock">
+                                <div id="total">
+                                    <a id="szam">90</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="a">
+                <div id="teljes">
+                <h2 id="nev2">Pikachu</h2>
+                <button id="valtas" class="btn btn-dark" onclick="b2()">
+                    <</button>
+                        <img id="kep2" src="" alt="pikachu">
+                        <button id="valtas" class="btn btn-dark" onclick="j2()">></button>
+                    </div>
+            </div>
+        </div>
+        <div class="row">
+           
+        </div>
+        <br>
+        <br>
+        <br>
+    </div>
+    <h1>Pokédex data</h1>
+    <table>
+<tr>
+    <td></td>
+    <td>National Ne</td>
+    <td><b>133</b></td>
+</tr>
+<tr>
+    <td></td>
+    <td>Type</td>
+    <td id="Normal"><a href="https://pokemondb.net/type/normal">Normal</a></td>
+</tr>
+<tr>
+    <td></td>
+    <td>Species</td>
+    <td>Evolution Pokémon</td>
+</tr>
+<tr>
+    <td></td>
+    <td>Height</td>
+    <td>0.3 m (1'00")</td>
+</tr>
+<tr>
+    <td></td>
+    <td>Weight</td>
+    <td>6.5kg (14.3 lbs)</td>
+</tr>
+<tr>
+    <td></td>
+    <td>Abilities</td>
+    <td><a href="https://pokemondb.net/ability/run-away">Run Away</a>, <a href="https://pokemondb.net/ability/adaptability">Adaptability</a>, <a href="https://pokemondb.net/ability/anticipation">Anticipation</a></td>
+</tr>
+    </table>
+
+    <h1>Training</h1>
+<table>
+    <tr>
+        <td>EV yield</td>
+        <td>1 Special Defense</td>
+    </tr>
+    <tr>
+        <td>Catch rate</td>
+        <td>45 (5.9% with PokéBall, full HP)</td>
+    </tr>
+    <tr>
+        <td>Base <a href="https://pokemondb.net/glossary#def-friendship">Friendship</a></td>
+        <td>50 (normal)</td>
+    </tr>
+    <tr>
+        <td>Base Exp.</td>
+        <td>65</td>
+    </tr>
+    <tr>
+        <td>Growth Rate</td>
+        <td>Medium Fast</td>
+    </tr>
+</table>
+
+
+<h1>Breeding</h1>
+
+<table>
+    <tr>
+        <td>Egg Groups</td>
+        <td><a href="https://pokemondb.net/egg-group/field">Field</a></td>
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td>87.5% male, 12.5% female</td>
+    </tr>
+    <tr>
+        <td><a href="https://pokemondb.net/glossary#def-eggcycle">Egg cycles</a></td>
+        <td>(8,739–8,995 steps)</td>
+    </tr>
+</table>
+
+
+
+<h1>Base stats</h1>
+
+<table>
+    <tr>
+        <td>HP</td>
+        <td>55</td>
+    </tr>
+    <tr>
+        <td>Attack</td>
+        <td>55</td>
+    </tr>
+    <tr>
+        <td>Defense</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Sp.Atk</td>
+        <td>45</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+
+</body>
+</html>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

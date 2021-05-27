@@ -1,0 +1,139 @@
+#a {
+    border: 1px solid white;
+    border-bottom: 2px solid orange;
+    text-align: center;
+  }
+  
+  #main {
+    transform: translateY(50%);
+  }
+  
+  #nev {
+    margin-top: 50px;
+  }
+  
+  img {
+    width: 180px;
+    height: 180px;
+  }
+  
+  #teljes {
+    width: 300px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #valtas {
+    height: 125px;
+    width: 50px;
+    transition: 100ms ease;
+  }
+  
+  #valtas:hover {
+    transform: scaleY(1.25);
+  }
+  
+  #balstat {
+    height: 20px;
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-left: -10px;
+    margin-top: 35px;
+  }
+  
+  #jobbstat {
+    height: 20px;
+    float: right;
+    width: 150px;
+    height: 150px;
+    margin-right: -10px;
+    margin-top: 35px;
+  }
+  
+  #statblock {
+    height: 20px;
+    width: 150px;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  #statblock #total {
+    margin-top: 8px;
+    font-size: 15px;
+  }
+  
+  #balstat #statblock #statbarcorner {
+    border: 1px solid whitesmoke;
+    height: 20px;
+    width: 125px;
+    margin-top: 5px;
+    float: left;
+  }
+  
+  #jobbstat #statblock #statbarcorner {
+    border: 1px solid whitesmoke;
+    height: 20px;
+    width: 125px;
+    margin-top: 5px;
+    float: right;
+    margin-right: 2px;
+  }
+  
+  #balstat #statblock #statbar {
+    background-color: black;
+    width: 12px;
+    height: 19px;
+    margin-top: -1px;
+    margin-left: -1px;
+    float: left;
+  }
+  
+  #jobbstat #statblock #statbar {
+    background-color: black;
+    width: 12px;
+    height: 19px;
+    margin-top: -1px;
+    margin-right: -1px;
+    float: right;
+  }
+  
+  #balstat #statblock #szam {
+    margin-left: -10px;
+  }
+  
+  #jobbstat #statblock #szam {
+    margin-right: -5px;
+  }
+  
+  #statnevek {
+    margin-top: 57px;
+    line-height: 9px;
+  }
+  
+  .fight {
+    margin-top: 30px;
+  }
+  
+  .gyoztes {
+    color: green;
+  }
+  
+  .vesztes {
+    color: white;
+  }
+  
+  .dontetlen {
+    color: yellow;
+  }
+  body{
+      background-color: red;
+  }
+  img{
+    width: 1000px;
+    margin: auto;
+    height: 250px;
+    text-align: center;
+  }
